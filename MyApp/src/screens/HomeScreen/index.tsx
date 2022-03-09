@@ -1,12 +1,12 @@
 import React from 'react';
-import {ContactList} from '../../components/UI/ContactList';
+import {MessageList} from '../../components/UI/MessageList';
 
 import {Container} from './styles';
 
 export function HomeScreen() {
     return (
         <Container>
-            <ContactList />
+            <MessageList />
         </Container>
     );
 }

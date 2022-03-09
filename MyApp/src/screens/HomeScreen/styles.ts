@@ -5,5 +5,5 @@ export const Container = styled.View`
     display: flex;
     flex: 1;
     background-color: ${({theme}) => theme.colors.TailWind.Green[50]};
-    margin-top: ${getStatusBarHeight()}px;
+    //margin-top: ${getStatusBarHeight()}px;
 `;
