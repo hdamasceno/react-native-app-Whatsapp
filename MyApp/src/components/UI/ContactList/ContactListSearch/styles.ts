@@ -8,12 +8,14 @@ export const Container = styled.View`
     flex-direction: row;
     align-items: center;
     width: 100%;
+    height: ${RFValue(60)}px;
     padding: ${RFValue(9)}px;
     background-color: ${({theme}) => theme.colors.white};
 `;
 
 export const Input = styled(TextInput)`
     width: 100%;
+    height: 100%;
     background-color: ${({theme}) => theme.colors.TailWind.Gray[100]};
     font-family: ${({theme}) => theme.fonts.LeagueSpartan};
     font-size: ${RFValue(12)}px;
