@@ -22,6 +22,22 @@ export function MessageList() {
             cadastradoDataHora: '2022-03-04 08:30:13',
             type: 'RECEIVED',
             contactId: '1',
+            text: 'Eita Ze, tem que cuidar desse dente aí, ele não pode ficar assim não, pow!',
+            contact: {
+                id: '1',
+                name: 'Henry Lima',
+                description: 'Estou na área!',
+                avatarUrl:
+                    'https://avatars.githubusercontent.com/u/4733294?v=4',
+                pendinMessageCount: 1,
+            },
+        },
+        {
+            id: '2',
+            cadastradoDataHora: '2022-03-04 08:30:13',
+            type: 'SENT',
+            contactId: '1',
+            text: 'Sim, pow, vamos tratar isso logo, e sem medo da anestesia!',
             contact: {
                 id: '1',
                 name: 'Henry Lima',

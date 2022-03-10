@@ -1,7 +1,7 @@
 import React from 'react';
 import {ContactProps} from '../../ContactList';
 
-import {Container} from './styles';
+import {Container, MessageContainer, MessageText} from './styles';
 
 export interface MessageProps {
     id: string;
@@ -17,6 +17,12 @@ interface Props {
     message: MessageProps;
 }
 
-export function MessageListItem({}: Props) {
-    return <Container />;
+export function MessageListItem({message}: Props) {
+    return (
+        <Container>
+            <MessageContainer>
+                <MessageText>{message.text || ''}</MessageText>
+            </MessageContainer>
+        </Container>
+    );
 }
