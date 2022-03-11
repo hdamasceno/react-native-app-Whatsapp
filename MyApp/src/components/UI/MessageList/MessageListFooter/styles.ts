@@ -7,7 +7,7 @@ export const Container = styled.View`
     display: flex;
     flex-direction: row;
     padding: ${RFValue(8)}px;
-    padding-bottom: ${getBottomSpace()}px;
+    padding-bottom: ${getBottomSpace() + 10}px;
     border-top-width: ${RFValue(1)}px;
     background-color: ${({theme}) => theme.colors.TailWind.Gray[700]};
     border-color: ${({theme}) => theme.colors.TailWind.Gray[500]};
